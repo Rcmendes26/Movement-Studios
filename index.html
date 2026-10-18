@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Movement Studios — encontre seu ritmo, explore o movimento e dance sua verdade.">
+  <title>Movement Studios — Find your flow</title>
+
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar navbar-expand-lg navbar-dark p-0" aria-label="Navegação principal">
+      <div class="container-fluid px-0">
+        <button class="navbar-toggler ms-3 my-2" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav"
+          aria-controls="mainNav" aria-expanded="false" aria-label="Abrir menu">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainNav">
+          <ul class="navbar-nav nav-left">
+            <li class="nav-item"><a class="nav-link" href="#classes">Classes</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          </ul>
+          <div class="address-label">224 Nostrand Ave, Brooklyn, NY</div>
+        </div>
+        <a class="navbar-brand ms-auto me-4" href="#home" aria-label="Movement Studios — início">Movement Studios.</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <img class="hero-image" src="hero-dance.jpeg" alt="Grupo de dançarinos ensaiando juntos em um estúdio">
+      <div class="hero-shade"></div>
+      <div class="hero-content">
+        <p class="eyebrow">Movement is for everyone</p>
+        <h1 id="hero-title">Find your<br>flow.</h1>
+        <a class="btn btn-aqua" href="#contact">Reserve your spot</a>
+      </div>
+    </section>
+
+    <section class="announcement-bar" aria-label="Novidades do estúdio">
+      <div class="announcement-track">
+        <span>Fluid. Expressive. Powerful. Move with us!</span>
+        <span>Masterclass Alert: Guest Choreographer Workshop This Saturday</span>
+        <span>New Contemporary Dance Classes Now Enrolling — Secure Your Spot</span>
+      </div>
+    </section>
+
+    <section class="split-section vision-section" id="about" aria-labelledby="vision-title">
+      <div class="image-panel vision-image">
+        <img src="vision-dancer.jpeg" alt="Dançarina contemporânea expressando movimento com os braços abertos">
+        <h2 class="image-heading" id="vision-title">Vision</h2>
+      </div>
+      <div class="copy-panel">
+        <div class="copy-inner">
+          <p class="section-kicker">Who we are</p>
+          <h3>Movement is a way to express yourself.</h3>
+          <p>At Movement Studio, we’re passionate about creating a supportive and inspiring environment for dancers of all levels. Whether you’re a complete beginner eager to explore the world of modern dance, a seasoned performer looking to refine your technique, or simply someone who finds joy in moving, you’ll find a home here.</p>
+          <a class="btn btn-blue" href="#founders">About us</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="split-section classes-section" id="classes" aria-labelledby="classes-title">
+      <div class="image-panel classes-image">
+        <img src="classes-dancers.jpeg" alt="Silhuetas de dançarinas em um palco iluminado de vermelho">
+        <h2 class="image-heading" id="classes-title">Classes</h2>
+      </div>
+      <div class="copy-panel">
+        <div class="copy-inner">
+          <p class="section-kicker">Our Classes</p>
+          <h3>Find the style that moves you.</h3>
+          <p>Get your groove on with Hip Hop, find your rhythm in Jazz, and explore connection in Contact Improvisation. Movement Studio offers a diverse range of classes for every dancer.</p>
+          <a class="btn btn-blue" href="#contact">Reserve your spot</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="founders-section" id="founders" aria-labelledby="founders-title">
+      <div class="founders-intro">
+        <h2 id="founders-title">Our Founders</h2>
+        <blockquote>
+          <p>“Find your flow, and dance your truth.”</p>
+          <cite>— Sophia Bennett</cite>
+        </blockquote>
+      </div>
+      <div class="founder-cards">
+        <article class="founder-card">
+          <img src="founder-sophia.jpeg" alt="Retrato em preto e branco de Sophia Bennett">
+          <div class="founder-caption caption-magenta">
+            <h3>Sophia Bennett</h3>
+            <p>Founder &amp; Instructor</p>
+          </div>
+        </article>
+        <article class="founder-card">
+          <img src="founder-alisa.jpeg" alt="Retrato em preto e branco de Alisa Morris">
+          <div class="founder-caption caption-aqua">
+            <h3>Alisa Morris</h3>
+            <p>Founder &amp; Program Manager</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="cta-section" aria-labelledby="cta-title">
+      <div class="cta-inner">
+        <h2 id="cta-title">Whether you're a beginner looking to explore expressive movement or an advanced dancer ready to refine your technique, we have classes for you!</h2>
+        <a class="btn btn-aqua" href="#contact">Reserve your spot</a>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contact">
+    <div class="footer-main">
+      <a class="footer-logo" href="#home" aria-label="Voltar ao início">Mov.<br>Stu.</a>
+      <div class="footer-column">
+        <h2>Email</h2>
+        <a href="mailto:hello@figma.com">hello@figma.com</a>
+        <h2>Instagram</h2>
+        <a href="https://www.instagram.com/" target="_blank" rel="noreferrer">@figma</a>
+        <h2>Facebook</h2>
+        <a href="https://www.facebook.com/" target="_blank" rel="noreferrer">figma</a>
+      </div>
+      <div class="footer-column footer-address">
+        <h2>Address</h2>
+        <p>224 Candyland Lane, Brooklyn, NY<br>(646) 555-4567</p>
+        <p class="copyright">Movement Studios © 2025<br>All Rights Reserved</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <a class="footer-bottom-link social-link" href="https://www.instagram.com/" target="_blank" rel="noreferrer">Our Socials</a>
+      <a class="footer-bottom-link email-link" href="mailto:hello@figma.com">Email us</a>
+      <a class="footer-bottom-link booking-link" href="mailto:hello@figma.com?subject=Class%20reservation">Book with us</a>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
